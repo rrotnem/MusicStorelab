@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<Context>
+    <Resource name="jdbc/musicstorepool" 
+              auth="Container"
+              type="javax.sql.DataSource" 
+              username="musicstoreuser" 
+              password="ThePassword"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/musicstore"
+              maxActive="1000" 
+              maxTotal = "1000"
+              maxIdle="4" />
+</Context>
